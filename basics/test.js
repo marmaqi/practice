@@ -1,9 +1,8 @@
-console.log("Hello Jee!");
-console.log("I am back!!!");
-
-function add(num1, num2){
-    return num1 + num2;
-}
+let name = "Ali"
+const age = "28"
+let address = "Skardu"
+let email = "ali@google.com"
 
 
-console.log(add(2,4));
+
+console.table([name,age,address,email]);
