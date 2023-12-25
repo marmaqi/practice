@@ -1,6 +1,5 @@
 //array
 
-const myArr = [0,1,2,3,4,5]
 const myHeros = ["IronMan", "SpiderMan"]
 
 const myArr2 = new Array(1,2,3,4)
@@ -25,15 +24,16 @@ const myArr2 = new Array(1,2,3,4)
 
 
 // slice and splice
-console.log("A", myArr);
+const myArr = [0,1,2,3,4,5]
+// console.log("Before Slice", myArr);
 
-const myn1 = myArr.slice(1,3)
+// const myn1 = myArr.slice(1,3)
 
-console.log(myn1);
-console.log("B",myArr);
-
+// console.log("Slice",myn1);
+// console.log("After Slice",myArr);
+console.log(myArr);
 const myn2 = myArr.splice(1,3)
-console.log("C",myArr);
+// console.log("Before Splice",myArr);
 
-// console.log(myn1);
-console.log(myn2);
+console.log("Splice",myn2);
+console.log("After Splice",myArr);
