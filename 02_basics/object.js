@@ -6,7 +6,8 @@ const JsUser ={
    [mySymbol]: "key",
     age: 19,
     email: "imbalti5@google.com",
-    address: "Skardu"
+    address: "Skardu",
+    phone: 12345
 }
 
 // console.log(JsUser.email);
@@ -14,18 +15,18 @@ const JsUser ={
 // console.log(JsUser["address"]);
 
 JsUser.address = "MTP-92 Satellite Town Skardu"
-// Object.freeze(JsUser);
-// console.log(JsUser);
+Object.freeze(JsUser);
+console.log(JsUser);
 
 JsUser.address = "MTP-92 Satellite Town Kharmang"
 
-JsUser.greetingOne = function(){
-    console.log("Hello ");
-}
+// JsUser.greetingOne = function(){
+//     console.log("Hello ");
+// }
 
-JsUser.greetingTwo = function(){
-    console.log(`Hello ${this.name}`);
-}
+// JsUser.greetingTwo = function(){
+//     console.log(`Hello ${this.name}`);
+// }
 
-console.log(JsUser.greetingOne());
-console.log(JsUser.greetingTwo());
+// console.log(JsUser.greetingOne());
+// console.log(JsUser.greetingTwo());
