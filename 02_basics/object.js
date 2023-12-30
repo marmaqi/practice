@@ -1,6 +1,7 @@
 
 const mySymbol = Symbol("key")
 
+//this below is object literals
 const JsUser ={
     name: "Muhammad Ali",
    [mySymbol]: "key",
@@ -9,6 +10,9 @@ const JsUser ={
     address: "Skardu",
     phone: 12345
 }
+
+//singleton
+// object.create
 
 // console.log(JsUser.email);
 // console.log(JsUser[mySymbol]);
