@@ -48,5 +48,18 @@ const users =[
 // console.log(Object.values(tinderUser)); //convert datatype into array
 
 // console.log(Object.entries(tinderUser)); //gives values in nested array
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); //check value is occur in array or not.
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); //check value is occur in array or not.
+
+const course = {
+    courseName: "Web Development",
+    price: 999,
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor;
+
+const {courseName: Name} = course;     //its called distructuring      //using : change the courseName to Name
+// console.log(courseName);
+console.log(Name);
+
 
