@@ -45,7 +45,7 @@ function handleObject(anyobject)
 // const newArray = [90,80,70,60,50]
 
 function howGetArray(getArray){
-    return getArray[1]
+return getArray[8]
 }
 
 // console.log(howGetArray(newArray));          //just like this below is also correct format
